@@ -159,7 +159,7 @@ footer {
     text-decoration: none;
     color: #1100ff;
 }
-
+/* main settings */
 #main{
     display:flex;
     flex-direction: column;
@@ -168,6 +168,7 @@ footer {
 #main h2 {
     text-align: center;
 }
+/* rowo settings */
 .rowo {
     display: flex;
     justify-content: space-around;
@@ -183,6 +184,7 @@ p {
     text-align: left;
     color: rgb(0, 0, 0);
 }
+/* project id settings */
 #projects {
     justify-content: space-between;
 }
