@@ -18,3 +18,8 @@ CSS
 
 ![Preview](image.png)
 Thank to everyone to look at it .
+
+# Links 
+link to website: https://bakomans.github.io/tomasz_boot_portfolio/
+
+link to repo: https://github.com/bakomans/tomasz_boot_portfolio
