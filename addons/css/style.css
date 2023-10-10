@@ -127,6 +127,13 @@ footer {
 }
 
 /* simple gallery project */
+.project-gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 .project {
     width: 300px;
     background-color: #f5f5f5;
@@ -163,7 +170,7 @@ footer {
 }
 .rowo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-wrap: wrap;
 
 }
@@ -178,4 +185,8 @@ p {
 }
 #projects {
     justify-content: space-between;
+}
+p {
+    font-weight: bold;
+    font-size: large;
 }
