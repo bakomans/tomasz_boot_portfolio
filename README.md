@@ -16,4 +16,5 @@ CSS
 
 # thanks for watching 
 
+![Preview](image.png)
 Thank to everyone to look at it .
