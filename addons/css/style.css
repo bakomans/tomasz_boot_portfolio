@@ -134,6 +134,7 @@ footer {
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
+    justify-content: center;
 }
 
 .project img {
@@ -174,4 +175,7 @@ footer {
 p {
     text-align: left;
     color: rgb(0, 0, 0);
+}
+#projects {
+    justify-content: space-between;
 }
