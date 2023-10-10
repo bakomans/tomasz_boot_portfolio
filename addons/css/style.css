@@ -1,10 +1,10 @@
-/* Resetowanie domyślnych stylów przeglądarki */
+/* Reset */
 body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
 }
 
-/* Styl nagłówka */
+/* header style */
 header {
     background-color: #333;
     color: #fff;
@@ -16,7 +16,7 @@ header h1 {
     font-size: 2rem;
 }
 
-/* Nawigacja */
+/* Nav style */
 nav ul {
     list-style: none;
 }
@@ -31,12 +31,12 @@ nav ul li a {
     color: #fff;
 }
 
-/* Styl sekcji */
+/* section style */
 section {
     padding: 20px;
 }
 
-/* Styl projektu 1 */
+/* project 1 style */
 .large-project {
     border: 2px solid #333;
     padding: 20px;
@@ -48,7 +48,7 @@ section {
     height: auto;
 }
 
-/* Styl projektów 2 i więcej */
+/* rest project style */
 .small-project {
     margin-bottom: 20px;
 }
@@ -58,28 +58,49 @@ section {
     height: auto;
 }
 
-/* Styl formularza kontaktowego */
+/* contact form style */
 form {
-    /* Twój styl formularza kontaktowego */
+    
 }
 
-/* Styl stopki */
+/* footer style */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #e1cfcf;
     text-align: center;
     padding: 10px 0;
 }
 .main-image {
-    width: 300px; /* Ustal szerokość i wysokość zdjęcia */
+    width: 300px; 
     height: 300px;
-    background-image: url('main-image.jpg'); /* Dodaj URL głównego zdjęcia */
+    background-image: url('../images/1614150333514.jpg'); 
     background-size: cover;
     background-position: center;
-    transition: transform 0.3s ease-in-out; /* Dodaj animację dla transformacji */
+    transition: transform 0.3s ease-in-out; 
+    position: center;
 }
 
-/* Dodaj efekt przy najechaniu myszką */
+/* image hover */
 .main-image:hover {
-    transform: scale(1.1) rotate(5deg); /* Przybliż i obróć zdjęcie */
+    transform: scale(1.1) rotate(5deg); 
+}
+/* contact center */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact p {
+    font-weight: bold;
+}
+
+/*social style */
+#contact a {
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: bold; 
+}
+
+#contact p a {
+    margin: 0 10px; 
 }
