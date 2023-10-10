@@ -1,0 +1,85 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styl nagłówka */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Nawigacja */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styl sekcji */
+section {
+    padding: 20px;
+}
+
+/* Styl projektu 1 */
+.large-project {
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.large-project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styl projektów 2 i więcej */
+.small-project {
+    margin-bottom: 20px;
+}
+
+.small-project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styl formularza kontaktowego */
+form {
+    /* Twój styl formularza kontaktowego */
+}
+
+/* Styl stopki */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.main-image {
+    width: 300px; /* Ustal szerokość i wysokość zdjęcia */
+    height: 300px;
+    background-image: url('main-image.jpg'); /* Dodaj URL głównego zdjęcia */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out; /* Dodaj animację dla transformacji */
+}
+
+/* Dodaj efekt przy najechaniu myszką */
+.main-image:hover {
+    transform: scale(1.1) rotate(5deg); /* Przybliż i obróć zdjęcie */
+}
